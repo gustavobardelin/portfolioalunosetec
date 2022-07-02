@@ -18,13 +18,31 @@
 
                 <div class="nomes-alunos">
 
-                    <table class="table table-hover ">
+                    <table class="table table-borderless table-hover ">
 
-                        
-                        <th>Nome</th>
-                        <th>Link Portfólio</th>
-                        
-                        @yield('link-aluno')
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Link Portfólio</th>
+
+                        @foreach ($alunos as $aluno)
+                            <tr>
+
+                                <td scope="row">{{ $loop->iteration }}</td>
+                                <td>{{ $aluno->name }}</td>
+
+                                @if (strlen($aluno->link) > 6)
+                                    <td>
+                                        <a class="btn btn-warning" target="_blank"
+                                            href="{{ $aluno->link }}">Visualizar</a>
+                                    </td>
+                                @else
+                                    <td>
+                                        <p><strong><i>Sem Link</i></strong></p>
+                                    </td>
+                                @endif
+
+                            </tr>
+                        @endforeach
 
                     </table>
 

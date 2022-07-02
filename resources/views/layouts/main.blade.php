@@ -27,7 +27,7 @@
         <nav class="container d-flex justify-content-between">
 
             <div class="logo-wrapper d-flex align-items-center">
-                <a href="">
+                <a href="/">
                     <img src="/img/logo-etec.png" alt="Logo ETEC Francisco Garcia">
                 </a>
             </div>

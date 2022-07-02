@@ -15,7 +15,7 @@
                     @if(strlen($aluno->link) > 6)
                         <a class="btn btn-warning" target="_blank" href="{{$aluno->link}}" >Portfólio</a>
                     @else
-                        <P><strong>Sem Link</strong></P>
+                        <p><strong>Sem Link</strong></p>
                     @endif
                 </td>
 
