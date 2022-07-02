@@ -59,6 +59,7 @@
                         <option value="4">1° Mecânica</option>
                         <option value="5">1° Química</option>
                         <option value="6">3° Informática</option>
+                        <option value="7">Administrador</option>
                     </select>
 
                 </div>

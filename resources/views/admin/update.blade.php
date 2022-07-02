@@ -59,8 +59,11 @@
                         </option>
                         <option value="4" {{ $aluno->curso_id == 4 ? "selected='selected'" : '' }}>1° Mecânica
                         </option>
-                        <option value="5" {{ $aluno->curso_id == 5 ? "selected='selected'" : '' }}>1° Química</option>
+                        <option value="5" {{ $aluno->curso_id == 5 ? "selected='selected'" : '' }}>1° Química
+                        </option>
                         <option value="6" {{ $aluno->curso_id == 6 ? "selected='selected'" : '' }}>3° Informática
+                        </option>
+                        <option value="7" {{ $aluno->curso_id == 7 ? "selected='selected'" : '' }}>Administrador
                         </option>
                     </select>
                 </div>
