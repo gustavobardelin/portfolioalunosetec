@@ -112,7 +112,7 @@
                 @endauth
 
                 @guest
-                <li><a href="{{route('auth.login')}}">Login</a></li>
+                <li><a href="https://portfolioalunosetec.herokuapp.com/auth/login">Login</a></li>
                 @endguest
 
             </ul>
