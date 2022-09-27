@@ -1,5 +1,9 @@
 <?php
 
+if (env('APP_ENV') === 'production') {
+    URL::forceSchema('https');
+}
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\CursoController;
